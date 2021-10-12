@@ -7,7 +7,7 @@
 ## Live Demo
 >   You can access the live demo of this repo [here]()
 
-![screenshot](./assets/image/Desktop_preview.png)
+![screenshot](./assets/images/Desktop_preview.png)
 
 ## How to Setup
 > You can simply clone or download [this repository](https://github.com/Chimwemwe-127001/microverse_portfolio_project), and use your favoright browser or code editor to run this program.
