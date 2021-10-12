@@ -246,6 +246,53 @@ footer {
   align-items: center;
 }
 
+.about-welcome-section {
+  background-image: url(./assets/images/gbimage1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-welcome-section--content {
+  padding: 60px 43px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  color: #d3d3d3;
+}
+
+.about-welcome-section--content h1 {
+  font-family: 'Quicksand';
+}
+
+.about-welcome-section--content h2 {
+  text-align: center;
+  font-family: 'Quicksand';
+}
+
+.about-welcome-section--content p {
+  text-align: center;
+}
+
+.about-welcome-section--content .p {
+  color: var(--secondary-color);
+  padding: 20px;
+  border: 3px solid var(--tertiary-color);
+  background: rgba(255, 255, 255, 0.68);
+}
+
+.about-welcome-section--content a {
+  color: var(--tertiary-color);
+}
+
+.about-events {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px 43px;
+}
+
+
 @media (max-width: 767px) {
   .head-container-one {
     display: none;
@@ -308,6 +355,10 @@ footer {
     background: var(--primary-color);
   }
 
+  .welcome-section {
+    background-position: left;
+  }
+
    .welcome-section h1 {
     margin: 0;
     padding-top: 70px;
@@ -365,6 +416,88 @@ footer {
     font-size: 1.2em;
     font-family: 'Quicksand';
     font-weight: bold;
+  }
+
+  .about-events h2 {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Quicksand';
+    font-size: 1.2em;
+    color: #000;
+  }
+
+  .about-events hr {
+    width: 20px;
+    color: var(--primary-color);
+  }
+
+  .about-events p {
+    color: var(--secondary-color);
+    text-align: center;
+  }
+
+  .about-events .desktop {
+    display: none;
+  }
+
+  .about-events .game-img {
+    height: 130px;
+    width: auto;
+    border: 3px solid var(--tertiary-color);
+    padding: 10px 80px;
+  }
+
+  .about-events .hr-normal {
+    color: var(--tertiary-color);
+    width: 100%;
+  }
+
+  .about-events .events {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .event {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .event h2 {
+    color: var(--tertiary-color);
+    margin-bottom: 0;
+  }
+
+  .event p {
+    font-size: 1.2em;
+    font-family: 'Quicksand';
+    color: var(--tertiary-color);
+  }
+
+  .about-events .events .event:nth-child(1) {
+    background-image: url(./assets/images/gamingEvent1.jpg);
+    background-position: center;
+    background-color: var(--primary-color);
+    background-blend-mode: multiply;
+    width: 320px;
+    flex-basis: 200px;
+    flex-grow: 1;
+  }
+  .about-events .events .event:nth-child(2) {
+    background-image: url(./assets/images/gamingEvent3.jpg);
+    background-position: center;
+    background-color: var(--primary-color);
+    background-blend-mode: multiply;
+    width: 320px;
+    flex-basis: 200px;
+    flex-grow: 1;
+  }
+  .events {
+    padding-bottom: 40px;
   }
 }
 
@@ -451,12 +584,23 @@ footer {
     text-decoration: none;
     color: var(--secondary-color);
     font-size: 0.84em;
+    transition: ease-in 0.1s;
+  }
+
+  .head-container-two a:hover {
+    color: var(--primary-color);
   }
 
   .head-container-two .EVO-Championship {
     padding: 12px 17px;
     color: var(--primary-color);
     border: 3px solid var(--primary-color);
+    transition: ease-in 0.1s;
+  }
+
+  .head-container-two .EVO-Championship:hover {
+    color: #fff;
+    background: var(--primary-color);
   }
 
   .welcome-section--content {
@@ -466,10 +610,7 @@ footer {
   .welcome-section--content h1 {
     font-family: 'Quicksand';
     padding-top: 80px;
-    background-image: url(./assets/images/bgimage.jpg);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    background-position: top left;
+    color: var(--tertiary-color);
     font-size: 4em;
     font-weight: 900;
     margin: 0;
@@ -491,10 +632,9 @@ footer {
   .mask-text {
     font-family: 'Quicksand';
     margin: 0;
-    background-image: url(./assets/images/bgimage.jpg);
-    color: transparent;
-    background-clip: text;
-    font-size: 8em;
+    padding-block: 40px;
+    color: var(--tertiary-color);
+    font-size: 6em;
     font-weight: 800;
   }
 
@@ -525,7 +665,7 @@ footer {
     flex-wrap: wrap;
   }
 
-  .featured-speakers > *{
+  .featured-speaker > *{
     flex-basis: 40%;
     flex-grow: 1;
   }
@@ -541,5 +681,105 @@ footer {
     font-size: 2em;
     font-family: 'Quicksand';
     font-weight: bold;
+  }
+
+  .about-welcome-section--content h1 {
+    font-size: 2em;
+  }
+  
+  .about-welcome-section--content h2 {
+    font-size: 4.2em;
+  }
+  
+  .about-welcome-section--content p {
+    font-size: 1.3em;
+  }
+
+  .about-welcome-section--content .p {
+    max-width: 800px;
+  }
+
+  
+  .about-events h2 {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Quicksand';
+    font-size: 1.2em;
+    color: #000;
+  }
+
+  .about-events hr {
+    width: 20px;
+    color: var(--primary-color);
+  }
+
+  .about-events p {
+    color: var(--secondary-color);
+    text-align: center;
+  }
+
+  .about-events .mobile {
+    display: none;
+  }
+
+  .about-events .game-img {
+    height: 260px;
+    width: auto;
+    border: 3px solid var(--tertiary-color);
+    padding: 30px 100px;
+  }
+
+  .about-events .hr-normal {
+    color: var(--tertiary-color);
+    width: 100%;
+  }
+
+  .about-events .events {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .event {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 350px;
+  }
+
+  .event h2 {
+    color: var(--tertiary-color);
+    margin-bottom: 0;
+  }
+
+  .event p {
+    font-size: 1.2em;
+    font-family: 'Quicksand';
+    color: var(--tertiary-color);
+  }
+
+  .about-events .events .event:nth-child(1) {
+    background-image: url(./assets/images/gamingEvent1.jpg);
+    background-position: center;
+    background-color: var(--primary-color);
+    background-blend-mode: multiply;
+    width: 320px;
+    flex-basis: 200px;
+    flex-grow: 1;
+  }
+  .about-events .events .event:nth-child(2) {
+    background-image: url(./assets/images/gamingEvent3.jpg);
+    background-position: center;
+    background-color: var(--primary-color);
+    background-blend-mode: multiply;
+    width: 320px;
+    flex-basis: 200px;
+    flex-grow: 1;
+  }
+  .events {
+    padding-bottom: 40px;
   }
 }
