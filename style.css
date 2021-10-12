@@ -7,7 +7,9 @@
   --tertiary-color: #d3d3d3;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -83,7 +85,7 @@ body.hide-scrollbar {
 
 .main-program-section h3 {
   color: #fff;
-  font-family: 'Quicksand';
+  font-family: 'Quicksand', sans-serif;
   font-size: 1.5em;
 }
 
@@ -142,13 +144,13 @@ body.hide-scrollbar {
 
 .featured-speakers-section h3 {
   text-align: center;
-  font-family: 'Quicksand';
+  font-family: 'Quicksand', sans-serif;
   font-size: 1.5em;
 }
 
 .featured-speakers-section hr {
   width: 50px;
-  color:var(--primary-color);
+  color: var(--primary-color);
 }
 
 .featured-speakers {
@@ -172,9 +174,9 @@ body.hide-scrollbar {
 }
 
 .txt-content h3 {
-  font-family: 'Quicksand';
+  font-family: 'Quicksand', sans-serif;
   font-size: 1.2em;
-  text-align: left
+  text-align: left;
 }
 
 .txt-content .italic-txt {
@@ -202,7 +204,7 @@ body.hide-scrollbar {
 }
 
 .partner-section h3 {
-  font-family: 'Quicksand';
+  font-family: 'Quicksand', sans-serif;
   font-size: 1.5em;
   color: var(--tertiary-color);
   margin: 0;
@@ -262,12 +264,12 @@ footer {
 }
 
 .about-welcome-section--content h1 {
-  font-family: 'Quicksand';
+  font-family: 'Quicksand', sans-serif;
 }
 
 .about-welcome-section--content h2 {
   text-align: center;
-  font-family: 'Quicksand';
+  font-family: 'Quicksand', sans-serif;
 }
 
 .about-welcome-section--content p {
@@ -292,7 +294,6 @@ footer {
   padding: 5px 43px;
 }
 
-
 @media (max-width: 767px) {
   .head-container-one {
     display: none;
@@ -311,6 +312,12 @@ footer {
 
   .head-container-two.open {
     clip-path: circle(250% at top right);
+  }
+
+  footer img {
+    padding: 30px;
+    height: 140px;
+    width: auto;
   }
 
   .head-container-two img {
@@ -359,7 +366,7 @@ footer {
     background-position: left;
   }
 
-   .welcome-section h1 {
+  .welcome-section h1 {
     margin: 0;
     padding-top: 70px;
     font-weight: 600;
@@ -371,7 +378,7 @@ footer {
   }
 
   .welcome-section--content h1 {
-    font-family: 'Quicksand';
+    font-family: 'Quicksand', sans-serif;
     background-image: url(./assets/images/bgimage.jpg);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -380,7 +387,7 @@ footer {
   }
 
   .mask-text {
-    font-family: 'Quicksand';
+    font-family: 'Quicksand', sans-serif;
     margin: 0;
     background-image: url(./assets/images/bgimage.jpg);
     -webkit-text-fill-color: transparent;
@@ -395,6 +402,13 @@ footer {
     font-weight: bold;
   }
 
+  footer p {
+    color: var(--secondary-color);
+    font-size: 1.2em;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+  }
+
   .welcome-section--content p {
     padding: 20px;
     color: var(--tertiary-color);
@@ -405,24 +419,11 @@ footer {
     flex-direction: column;
   }
 
-  footer img {
-    padding: 30px;
-    height: 140px;
-    width: auto;
-  }
-  
-  footer p {
-    color: var(--secondary-color);
-    font-size: 1.2em;
-    font-family: 'Quicksand';
-    font-weight: bold;
-  }
-
   .about-events h2 {
     margin: 0;
     padding: 20px;
     text-align: center;
-    font-family: 'Quicksand';
+    font-family: 'Quicksand', sans-serif;
     font-size: 1.2em;
     color: #000;
   }
@@ -453,6 +454,10 @@ footer {
     width: 100%;
   }
 
+  .events {
+    padding-bottom: 40px;
+  }
+
   .about-events .events {
     display: flex;
     flex-direction: column;
@@ -474,7 +479,7 @@ footer {
 
   .event p {
     font-size: 1.2em;
-    font-family: 'Quicksand';
+    font-family: 'Quicksand', sans-serif;
     color: var(--tertiary-color);
   }
 
@@ -487,6 +492,7 @@ footer {
     flex-basis: 200px;
     flex-grow: 1;
   }
+
   .about-events .events .event:nth-child(2) {
     background-image: url(./assets/images/gamingEvent3.jpg);
     background-position: center;
@@ -495,9 +501,6 @@ footer {
     width: 320px;
     flex-basis: 200px;
     flex-grow: 1;
-  }
-  .events {
-    padding-bottom: 40px;
   }
 }
 
@@ -520,12 +523,23 @@ footer {
     align-items: center;
   }
 
+  footer img {
+    padding: 30px;
+    height: 250px;
+    width: auto;
+  }
+
   .head-container-one img {
     height: 20px;
   }
 
   .head-container-one li {
     padding: 0 10px;
+  }
+
+  .head-container-two li {
+    display: inline-block;
+    padding: 15px;
   }
 
   .head-container-one li:nth-child(3) {
@@ -548,7 +562,7 @@ footer {
     align-items: center;
     justify-content: space-between;
     transition: all 0.5s;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
   }
 
   .head-container-two .game-logo {
@@ -568,11 +582,6 @@ footer {
     list-style: none;
     margin: 0;
     padding: 0.7em 0 0.7em 0;
-  }
-
-  .head-container-two li {
-    display: inline-block;
-    padding: 15px;
   }
 
   .head-container-two li:nth-child(6) {
@@ -608,18 +617,24 @@ footer {
   }
 
   .welcome-section--content h1 {
-    font-family: 'Quicksand';
+    font-family: 'Quicksand', sans-serif;
     padding-top: 80px;
     color: var(--tertiary-color);
     font-size: 4em;
     font-weight: 900;
     margin: 0;
-    padding-top: 20px;
   }
 
   .welcome-section--content h3 {
     color: var(--tertiary-color);
     font-size: 4em;
+    font-weight: bold;
+  }
+
+  footer p {
+    color: var(--secondary-color);
+    font-size: 2em;
+    font-family: 'Quicksand', sans-serif;
     font-weight: bold;
   }
 
@@ -630,7 +645,7 @@ footer {
   }
 
   .mask-text {
-    font-family: 'Quicksand';
+    font-family: 'Quicksand', sans-serif;
     margin: 0;
     padding-block: 40px;
     color: var(--tertiary-color);
@@ -665,27 +680,14 @@ footer {
     flex-wrap: wrap;
   }
 
-  footer img {
-    padding: 30px;
-    height: 250px;
-    width: auto;
-  }
-  
-  footer p {
-    color: var(--secondary-color);
-    font-size: 2em;
-    font-family: 'Quicksand';
-    font-weight: bold;
-  }
-
   .about-welcome-section--content h1 {
     font-size: 2em;
   }
-  
+
   .about-welcome-section--content h2 {
     font-size: 4.2em;
   }
-  
+
   .about-welcome-section--content p {
     font-size: 1.3em;
   }
@@ -694,12 +696,11 @@ footer {
     max-width: 800px;
   }
 
-  
   .about-events h2 {
     margin: 0;
     padding: 20px;
     text-align: center;
-    font-family: 'Quicksand';
+    font-family: 'Quicksand', sans-serif;
     font-size: 1.2em;
     color: #000;
   }
@@ -730,6 +731,10 @@ footer {
     width: 100%;
   }
 
+  .events {
+    padding-bottom: 40px;
+  }
+
   .about-events .events {
     display: flex;
     flex-direction: row;
@@ -752,7 +757,7 @@ footer {
 
   .event p {
     font-size: 1.2em;
-    font-family: 'Quicksand';
+    font-family: 'Quicksand', sans-serif;
     color: var(--tertiary-color);
   }
 
@@ -765,6 +770,7 @@ footer {
     flex-basis: 200px;
     flex-grow: 1;
   }
+
   .about-events .events .event:nth-child(2) {
     background-image: url(./assets/images/gamingEvent3.jpg);
     background-position: center;
@@ -773,8 +779,5 @@ footer {
     width: 320px;
     flex-basis: 200px;
     flex-grow: 1;
-  }
-  .events {
-    padding-bottom: 40px;
   }
 }

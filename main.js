@@ -5,9 +5,9 @@ const headerContainerTwo = document.querySelector('.head-container-two');
 
 menuToggle.addEventListener('click', () => {
   headerContainerTwo.classList.toggle('open');
-  hamburger.classList.toggle('open')
+  hamburger.classList.toggle('open');
   hideScrollBar.classList.toggle('hide-scrollbar');
-})
+});
 
 const featuredSpeakersData = [
   {
@@ -54,7 +54,7 @@ const featuredSpeakersData = [
   },
 ];
 
-for (let i = 0; i < featuredSpeakersData.length; i++) {
+for (let i = 0; i < featuredSpeakersData.length; i += 1) {
   const featuredSpeakersDataTemp = `
   <div class="featured-speaker">
     <img src="${featuredSpeakersData[i].pictureOfFeatureSpeaker}" alt="${featuredSpeakersData[i].altTeaxt}">
@@ -66,6 +66,6 @@ for (let i = 0; i < featuredSpeakersData.length; i++) {
     </div>
   </div>
   `;
- const featuredSpeaker =  document.querySelector('.featured-speakers');
- featuredSpeaker.innerHTML += featuredSpeakersDataTemp;
+  const featuredSpeaker = document.querySelector('.featured-speakers');
+  featuredSpeaker.innerHTML += featuredSpeakersDataTemp;
 }
