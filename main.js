@@ -66,6 +66,6 @@ for (let i = 0; i < featuredSpeakersData.length; i++) {
     </div>
   </div>
   `;
-const featuredSpeaker =  document.querySelector('.featured-speakers');
+ const featuredSpeaker =  document.querySelector('.featured-speakers');
  featuredSpeaker.innerHTML += featuredSpeakersDataTemp;
 }
