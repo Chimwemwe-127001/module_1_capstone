@@ -7,7 +7,7 @@
 ## Live Demo
 >   You can access the live demo of this repo [here]()
 
-![gif screenshot](./assets/img/Desktop_Version_Preview.gif)
+![screenshot](./assets/image/Desktop_Preview.png)
 
 ## How to Setup
 > You can simply clone or download [this repository](https://github.com/Chimwemwe-127001/microverse_portfolio_project), and use your favoright browser or code editor to run this program.
@@ -28,6 +28,7 @@ code .
 
 - HTML
 - CSS
+- JAVASCRIPT
 
 ## Author
 
@@ -44,6 +45,8 @@ Feel free to check the [issues page](../../issues/).
 
 ## Acknowledgments
 - Design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07).
+- Images from [Freepik](https://www.freepik.com).
+- Icons from [Iconscout](https://iconscout.com). 
 
 ## Show your support
 
