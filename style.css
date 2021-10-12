@@ -324,7 +324,7 @@ footer {
     background-image: url(./assets/images/bgimage.jpg);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    font-size: 3em;
+    font-size: 1.7em;
     font-weight: 800;
   }
 
@@ -334,13 +334,13 @@ footer {
     background-image: url(./assets/images/bgimage.jpg);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    font-size: 7em;
+    font-size: 2.5em;
     font-weight: 800;
   }
 
   .welcome-section--content h3 {
     color: var(--tertiary-color);
-    font-size: 4em;
+    font-size: 1.2em;
     font-weight: bold;
   }
 
