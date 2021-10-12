@@ -665,11 +665,6 @@ footer {
     flex-wrap: wrap;
   }
 
-  .featured-speaker > *{
-    flex-basis: 40%;
-    flex-grow: 1;
-  }
-
   footer img {
     padding: 30px;
     height: 250px;
