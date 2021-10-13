@@ -4,13 +4,16 @@
 
 > This capstone project was built for Microverse [under these guidance objectives](https://github.com/microverseinc/curriculum-html-css/blob/main/capstone/html_capstone.md) > _note: you can only access this link if you're a Micronault (Microverse Student)_
 
-## Live Demo
->   You can access the live demo of this repo [here]()
 
-![gif screenshot](./assets/img/Desktop_Version_Preview.gif)
+## Project Presentation
+>   Here, you will find a short [video presentation](https://www.loom.com/share/3f1db6bd948a45bb9a081b40e4df64a3?sharedAppSource=personal_library), describing the project. 
+## Live Demo
+>   You can access the live demo of this repo [here](https://chimwemwe-127001.github.io/module_1_capstone/)
+
+![screenshot](./assets/images/Desktop_preview.png)
 
 ## How to Setup
-> You can simply clone or download [this repository](https://github.com/Chimwemwe-127001/microverse_portfolio_project), and use your favoright browser or code editor to run this program.
+> You can simply clone or download [this repository](https://github.com/Chimwemwe-127001/module_1_capstone), and use your favoright browser or code editor to run this program.
 
 - To open the project after download, simply double click the index.html file
 
@@ -28,6 +31,7 @@ code .
 
 - HTML
 - CSS
+- JAVASCRIPT
 
 ## Author
 
@@ -44,6 +48,8 @@ Feel free to check the [issues page](../../issues/).
 
 ## Acknowledgments
 - Design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07).
+- Images from [Freepik](https://www.freepik.com).
+- Icons from [Iconscout](https://iconscout.com). 
 
 ## Show your support
 
