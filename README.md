@@ -4,6 +4,9 @@
 
 > This capstone project was built for Microverse [under these guidance objectives](https://github.com/microverseinc/curriculum-html-css/blob/main/capstone/html_capstone.md) > _note: you can only access this link if you're a Micronault (Microverse Student)_
 
+
+## Project Presentation
+>   Here, you will find a short [video presentation](https://www.loom.com/share/3f1db6bd948a45bb9a081b40e4df64a3?sharedAppSource=personal_library), describing the project. 
 ## Live Demo
 >   You can access the live demo of this repo [here](https://chimwemwe-127001.github.io/module_1_capstone/)
 
