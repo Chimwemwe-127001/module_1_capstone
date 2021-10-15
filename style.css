@@ -159,6 +159,11 @@ body.hide-scrollbar {
   align-items: center;
 }
 
+.featured-speakers > * {
+  flex-basis: 50%;
+  flex-grow: 1;
+}
+
 .featured-speaker {
   display: flex;
   align-items: center;
@@ -341,7 +346,7 @@ footer {
   .head-container-two a {
     text-decoration: none;
     color: var(--secondary-color);
-    font-size: 1.7em;
+    font-size: 1.1em;
     font-weight: 400;
     transition: ease-in 100ms;
   }
@@ -539,7 +544,7 @@ footer {
 
   .head-container-two li {
     display: inline-block;
-    padding: 15px;
+    padding: 10px;
   }
 
   .head-container-one li:nth-child(3) {
