@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# MY PORTFOLIO
+# EVO
 
 > This capstone project was built for Microverse [under these guidance objectives](https://github.com/microverseinc/curriculum-html-css/blob/main/capstone/html_capstone.md) > _note: you can only access this link if you're a Micronault (Microverse Student)_
 
